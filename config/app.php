@@ -159,7 +159,9 @@ return [
         /*
          * Package Service Providers...
          */
-
+        // Krlove\EloquentModelGenerator\Provider\GeneratorServiceProvider::class,
+        Mews\Captcha\CaptchaServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class,
         /*
          * Application Service Providers...
          */
